@@ -15,7 +15,6 @@ client.connect((err) => {
         return console.error("Connection Error", err);
     }
 });
-
 const firstNameQuery = `SELECT * FROM famous_people 
 WHERE first_name ILIKE $1::text OR last_name ILIKE $1::text`
 
