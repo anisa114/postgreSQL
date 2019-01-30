@@ -1,0 +1,22 @@
+{
+  "name": "sqljs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add_person.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anisa114/postgreSQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anisa114/postgreSQL/issues"
+  },
+  "homepage": "https://github.com/anisa114/postgreSQL#readme",
+  "dependencies": {
+    "knex": "^0.16.3"
+  }
+}
